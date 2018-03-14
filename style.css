@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    color: #FFE3D5;
+    line-height: 1.6;
+}
+
+#showcase{
+    background-image: url(beach.jpeg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+#showcase h1{
+    font-size: 50px;
+    line-height: 1.2;
+}
+#showcase p{
+    font-size: 20px;
+}
+#showcase .button{
+    font-size: 18px;
+    text-decoration: none;
+    color: #FFE3D5;
+    border: #FFE3D5 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+#showcase .button:hover{
+    background: #FFE3D5;
+    color: #333;
+}
+#section-a{
+    padding: 20px;
+    background: #FFE3D5;
+    color: #333;
+    text-align: center;
+}
+#section-b{
+    padding: 20px;
+    background: #333;
+    text-align: center;
+}
+#section-c{
+    display: flex;
+}
+#section-c div{
+    padding: 20px;
+}
+#section-c .box1, #section-c .box3{
+    background: #FFE3D5;
+    color: #333;
+}
+#section-c .box2{
+    background: #333;
+    
+}
